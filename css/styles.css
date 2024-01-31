@@ -1,0 +1,58 @@
+body {
+  background-color: hsl(30, 18%, 87%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body p, body li, body td {
+  font-family: "outfit", serif;
+  font-size: 16px;
+}
+body h1, body h2, body h3 {
+  font-family: "Outfit", sans-serif;
+}
+body h1 {
+  color: hsl(24, 5%, 18%);
+}
+body h2 {
+  color: hsl(14, 45%, 36%);
+}
+body h3 {
+  color: hsl(332, 51%, 32%);
+}
+body .bold-text {
+  font-weight: bold;
+}
+
+.wrapper {
+  background-color: white;
+  width: 1440px;
+  border-radius: 20px;
+  padding: 25px;
+  margin-top: 50px;
+}
+.wrapper img {
+  width: 100%;
+  border-radius: 10px;
+}
+.wrapper .prep-highlight {
+  background-color: hsl(330, 100%, 98%);
+  padding: 10px;
+  padding-left: 20px;
+}
+.wrapper .calories {
+  width: 100%;
+  border-collapse: collapse;
+}
+.wrapper .calories tr {
+  border-bottom: 1px solid hsl(30, 10%, 34%);
+}
+.wrapper .calories .quantity {
+  color: hsl(332, 51%, 32%);
+}
